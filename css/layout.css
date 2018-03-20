@@ -351,10 +351,10 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: oop 2s ease;
   	-webkit-animation: oop 2s ease;
 }
-.html {
+.htmlcss {
   width: 60%;
-  -moz-animation: html 2s ease;
-  -webkit-animation: html 2s ease;
+  -moz-animation: htmlcss 2s ease;
+  -webkit-animation: htmlcss 2s ease;
 }
 
 @-moz-keyframes go {
@@ -377,7 +377,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html {
+@-moz-keyframes htmlcss {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
@@ -402,7 +402,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html {
+@-webkit-keyframes htmlcss {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
