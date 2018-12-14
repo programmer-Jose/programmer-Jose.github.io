@@ -364,11 +364,6 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.golang {
-  width: 70%;
-  -moz-animation: go 2s ease;
-  -webkit-animation: go 2s ease;
-}
 .js {
   width: 70%;
   -moz-animation: go 2s ease;
@@ -380,6 +375,16 @@ ul#nav li.current a {
   -webkit-animation: go 2s ease;
 }
 .nodejs {
+  width: 70%;
+  -moz-animation: go 2s ease;
+  -webkit-animation: go 2s ease;
+}
+.bootstrap {
+  width: 60%;
+  -moz-animation: htmlcss 2s ease;
+  -webkit-animation: htmlcss 2s ease;
+}
+.go {
   width: 70%;
   -moz-animation: go 2s ease;
   -webkit-animation: go 2s ease;
@@ -404,17 +409,44 @@ ul#nav li.current a {
   -moz-animation: oop 2s ease;
   -webkit-animation: oop 2s ease;
 }
-.bootstrap {
-  width: 60%;
-  -moz-animation: htmlcss 2s ease;
-  -webkit-animation: htmlcss 2s ease;
-}
 .htmlcss {
   width: 60%;
   -moz-animation: htmlcss 2s ease;
   -webkit-animation: htmlcss 2s ease;
 }
 
+@-moz-keyframes js {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes reactjs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes nodejs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes bootstrap {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
 @-moz-keyframes go {
   0% {
     width: 0px;
@@ -464,6 +496,38 @@ ul#nav li.current a {
   }
 }
 
+@-webkit-keyframes js {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes reactjs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes nodejs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes bootstrap {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
 @-webkit-keyframes go {
   0% {
     width: 0px;
