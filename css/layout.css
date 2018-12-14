@@ -364,7 +364,7 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.js {
+.javasc {
   width: 70%;
   -moz-animation: go 2s ease;
   -webkit-animation: go 2s ease;
@@ -415,7 +415,7 @@ ul#nav li.current a {
   -webkit-animation: htmlcss 2s ease;
 }
 
-@-moz-keyframes js {
+@-moz-keyframes javasc {
   0% {
     width: 0px;
   }
@@ -496,7 +496,7 @@ ul#nav li.current a {
   }
 }
 
-@-webkit-keyframes js {
+@-webkit-keyframes javasc {
   0% {
     width: 0px;
   }
