@@ -404,6 +404,11 @@ ul#nav li.current a {
   -moz-animation: oop 2s ease;
   -webkit-animation: oop 2s ease;
 }
+.bootstrap {
+  width: 60%;
+  -moz-animation: htmlcss 2s ease;
+  -webkit-animation: htmlcss 2s ease;
+}
 .htmlcss {
   width: 60%;
   -moz-animation: htmlcss 2s ease;
