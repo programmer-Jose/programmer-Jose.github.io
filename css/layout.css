@@ -364,7 +364,7 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.go {
+.golang {
   width: 70%;
   -moz-animation: go 2s ease;
   -webkit-animation: go 2s ease;
